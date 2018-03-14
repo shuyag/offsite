@@ -111,7 +111,7 @@ label {
     position: fixed;
     width: 41.66666667%;
     height: 100%;   
-    padding: 200px;
+    padding: 7% 10px 10px 10px;
     background-color: #c4c4c4;
     background-position: center;
     -webkit-background-size: cover;
@@ -235,9 +235,9 @@ label {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.04);
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-radius: 4px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.5s;
@@ -264,7 +264,7 @@ label {
 .ticketBox .ticket-name span {
     color: #666;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
