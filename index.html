@@ -1,26 +1,72 @@
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>IDEO CoLab March 2018 Offsite</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>IDEO CoLab March 2018 Offsite</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    
-    <!-- fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+  <style>
+    p{
+      padding-left: 20px;
+      font-size: 10pt;
+      vertical-align: middle;
+    }
+    .one{
+      min-height: 55px;
+    }
+    .two{
+      min-height: 110px;
+    }
+    .three{
+      min-height: 165px;
+    }
+    .five{
+      min-height: 275px;
+    }
+
+    #blue {
+      width: 100%;
+      background-color: #b8d3f2;
+    }
+    #night {
+      width: 100%;
+      background-color: #b8b9f4;
+    }
+    #green {
+      width: 100%;
+      background-color: #c4f4b8;
+    }
+    #yellow {
+      width: 100%;
+      background-color: #f7b23b;
+    }
+    #red {
+      width: 100%;
+      background-color: #ef4565;
+    }
+    #clear {
+      width: 100%;
+      height: auto;
+      min-height: 55px;
+      border: 1px solid #ffffff;
+    }
+  </style>
   </head>
   <body>
   	
@@ -50,47 +96,828 @@
 
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation"><a href="agenda.html">Agenda</a></li>
+          <li role="presentation"><a href="#agenda" aria-controls="venue" role="tab" data-toggle="tab">Agenda</a></li>
+          <li role="presentation"><a href="#activities" aria-controls="venue" role="tab" data-toggle="tab">Activities</a></li>
           <li role="presentation" class="active"><a href="#info" aria-controls="buyTicket" role="tab" data-toggle="tab">Information</a></li>
           <li role="presentation"><a href="#venue" aria-controls="venue" role="tab" data-toggle="tab">Logistics</a></li>
           <li role="presentation"><a href="http://www.goat-simulator.com">Goats</a></li>
+          <li role="presentation"><a href="agenda.html">Planner (Pro)</a></li>
         </ul>
 
         <!-- Tab panes -->
-        <!-- Logistics -->
+
+      
         <div class="tab-content">
+
+        <!-- Instructions -->
+          <div role="tabpanel" class="tab-pane fade in active" id="info">
+            <div class="col-md-8">
+             <h4>Hi there! So excited to see you next week at our Spring 2018 Offsite. A few things to get make sure that we're all on the same page, and that you'll have everything that you need for the week:</h4><br>
+             <h4>Before you come to the offsite: </h4>
+             <h4> 1. Please set your OOO messages. This is an offsite, so try to keep all of your meetings at the offsite! <br> 2. Suggested packing list and weather in the Logistics tab. <br> 3. Please take a look at the Agenda and fill out the form.</h4>
+           </div>
+          </div>
+
+          <!-- Logistics -->
           <div role="tabpanel" class="tab-pane fade" id="venue">
             <iframe src="https://player.vimeo.com/video/162275074" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             <div class="row">
-            <div class="col-md-8">
-            <h4> In case you get separated from the group:</h4>
-            <h4>Bar SZ Ranch<br>10001 Willow Creek Rd<br>Pacines, CA 95043</h4><br>
+              <div class="col-md-8">
+                <h4> In case you get separated from the group:</h4>
+                <h4>Bar SZ Ranch<br>10001 Willow Creek Rd<br>Pacines, CA 95043</h4><br>
+              </div>
+            </div>
+            <div class="row">
+              <h4> In case you're curious about the weather for packing purposes:</h4>
+              <a class="weatherwidget-io" href="https://forecast7.com/en/36d55n120d94/95043/?unit=us" data-label_1="Bar SZ Ranch" data-label_2="WEATHER" data-font="Open Sans" data-theme="pure" >Bar SZ Ranch WEATHER</a>
+              <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+              </script>
+            </div>
+          </div>
+
+          <!-- Agenda -->
+
+          <div role="tabpanel" class="tab-pane fade" id="agenda">
+            <div class="row">
+             <div class="right-wrapper">
+                <div class="row">
+                  <div class="col-sm-4">
+                    Tuesday
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            7-9AM Breakfast
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="red">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            9-10AM<br> Share: CoLab 3.0
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>10AM-12PM</p></div>
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            12-1PM Lunch
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="green" class="three" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-4PM</p></div>
+                    <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>4-6PM</p></div>
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            6-8PM Dinner
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
+                    <div id="night">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-7 ticket-name">
+                            10PM-7AM 
+                            <span><strong>Quiet Time</strong></span>
+                          </div>
+                          <div class="col-xs-5 ticket-name">
+                            <img src="images/eggsleep.png" alt="sleeping egg" style="width:55px;height:auto;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="col-sm-4">
+                    Wednesday
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            7-9AM Breakfast
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="red">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            9-11AM<br> Share: Projects
+                            <br><br><br><br>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="green" class="one" ondrop="drop(event)" ondragover="allowDrop(event)"><p>11AM-12PM</p></div>
+
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            12-1PM Lunch
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-3PM</p></div>
+                    <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>3-5PM</p></div>
+                    <div id="red">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            5-6PM<br> Share: Fund
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            6-8PM Dinner
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
+                    <div id="night">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-7 ticket-name">
+                            10PM-7AM 
+                            <span><strong>Quiet Time</strong></span>
+                          </div>
+                          <div class="col-xs-5 ticket-name">
+                            <img src="images/eggsleep.png" alt="sleeping egg" style="width:55px;height:auto;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="col-sm-4">
+                    Thursday
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            7-9AM Breakfast
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="red">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            9-10AM<br> Share: CoLab(x)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>10AM-12PM</p></div>
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            12-1PM Lunch
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="green" class="five" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-6PM</p></div>
+                    <div id="yellow">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-12 ticket-name">
+                            6-8PM Dinner
+                            <span><strong>NO WORK!</strong></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
+                    <div id="night">
+                      <div class="ticketBox" data-ticket-price="50000">
+                        <div class="row">
+                          <div class="col-xs-7 ticket-name">
+                            10PM-7AM 
+                            <span><strong>Quiet Time</strong></span>
+                          </div>
+                          <div class="col-xs-5 ticket-name">
+                            <img src="images/eggsleep.png" alt="sleeping egg" style="width:55px;height:auto;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <h4> In case you're curious about the weather for packing purposes:</h4>
-          <a class="weatherwidget-io" href="https://forecast7.com/en/36d55n120d94/95043/?unit=us" data-label_1="Bar SZ Ranch" data-label_2="WEATHER" data-font="Open Sans" data-theme="pure" >Bar SZ Ranch WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-</div>
+
+          <!-- Activities -->
+          <div role="tabpanel" class="tab-pane fade" id="activities">
+           <div class="row">
+            <div class="col-md-10">
+              <h1> <br> </h1>
+            </div>
           </div>
 
-        <!-- Instructions -->
-        <div role="tabpanel" class="tab-pane fade in active" id="info">
-          <div class="col-md-8">
-         <h4>Hi there! So excited to see you next week at our Spring 2018 Offsite. A few things to get make sure that we're all on the same page, and that you'll have everything that you need for the week:</h4><br>
-         <h4>Before you come to the offsite: </h4>
-         <h4> 1. Please set your OOO messages. This is an offsite, so try to keep all of your meetings at the offsite! <br> 2. Suggested packing list and weather in the Logistics tab. <br> 3. Please take a look at the Agenda and fill out the form.</h4>
+          <!-- Blue -->
+
+          <div class="row">
+            <div class="col-md-8">
+              <h4> <strong>Small Work</strong><br>These fit in the blue hours. These should be flexible!<br> <br></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="ticketBox" data-ticket-price="50000" id="drag1" draggable="true" ondragstart="drag(event)">
+                  <div class="row">
+                    <div class="col-xs-8 ticket-name">
+                      Project Tracking
+                      <!-- <span><strong>Ali S</strong></span> -->
+                    </div>
+                    <div class="col-xs-4">
+                      <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="ticketBox" data-ticket-price="50000" id="drag2" draggable="true" ondragstart="drag(event)">
+                  <div class="row">
+                    <div class="col-xs-8 ticket-name">
+                      Big Book of CoLab
+                    </div>
+                    <div class="col-xs-4">
+                      <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="ticketBox" data-ticket-price="50000" id="drag3" draggable="true" ondragstart="drag(event)">
+                  <div class="row">
+                    <div class="col-xs-8 ticket-name">
+                      Little Book of CoLab
+                    </div>
+                    <div class="col-xs-4">
+                      <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-md-4">
+              <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="ticketBox" data-ticket-price="50000" id="drag4" draggable="true" ondragstart="drag(event)">
+                  <div class="row">
+                    <div class="col-xs-8 ticket-name">
+                      Data Science/Python
+                    </div>
+                    <div class="col-xs-4">
+                      <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="ticketBox" data-ticket-price="50000" id="drag5" draggable="true" ondragstart="drag(event)">
+                  <div class="row">
+                    <div class="col-xs-8 ticket-name">
+                      Colab After Dark
+                    </div>
+                    <div class="col-xs-4">
+                      <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <div class="ticketBox" data-ticket-price="50000" id="drag6" draggable="true" ondragstart="drag(event)">
+                  <div class="row">
+                    <div class="col-xs-8 ticket-name">
+                      IDEO+ for CoLab
+                    </div>
+                    <div class="col-xs-4">
+                      <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="row">
+           <div class="col-md-4">
+            <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+              <div class="ticketBox" data-ticket-price="50000" id="drag7" draggable="true" ondragstart="drag(event)">
+                <div class="row">
+                  <div class="col-xs-8 ticket-name">
+                    Tech Starter Kits
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+              <div class="ticketBox" data-ticket-price="50000" id="drag8" draggable="true" ondragstart="drag(event)">
+                <div class="row">
+                  <div class="col-xs-8 ticket-name">
+                    CoLab Pop Up
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+              <div class="ticketBox" data-ticket-price="50000" id="drag9" draggable="true" ondragstart="drag(event)">
+                <div class="row">
+                  <div class="col-xs-8 ticket-name">
+                    Marketing: Beyond Medium
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="row">
+         <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag10" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  DWeb Ecosystem Mapping
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag11" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  2018 Events Calendar
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag12" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  D&I Next Steps
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag13" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  Governance Models
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag14" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  Anna's Brand Review
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag15" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  R+D/Venture Studio Bridge
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag16" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  #Drugbust Review and Future
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag17" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  Blokbuster Process Debrief
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag18" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  3.0 Org Design
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggblue.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-8">
+          <h4> <strong>Beer Work</strong><br>These fit in the green hours. These should be fun & chill!<br> <br></h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag19" draggable="true" ondragstart="drag(event)">
+             <div class="row">
+              <div class="col-xs-8 ticket-name">
+               Landscapes
+             </div>
+             <div class="col-xs-4">
+              <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <div class="ticketBox" data-ticket-price="50000" id="drag20" draggable="true" ondragstart="drag(event)">
+         <div class="row">
+          <div class="col-xs-6 ticket-name">
+           Meditation
+         </div>
+         <div class="col-xs-6">
+          <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag21" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Dumplings
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag22" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Running
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-3">
+    <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div class="ticketBox" data-ticket-price="50000" id="drag23" draggable="true" ondragstart="drag(event)">
+       <div class="row">
+        <div class="col-xs-6 ticket-name">
+         Baby Goats
        </div>
+       <div class="col-xs-6">
+        <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag24" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Petchakutcha
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag25" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Lettering
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag26" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Blind Contour
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+    <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div class="ticketBox" data-ticket-price="50000" id="drag27" draggable="true" ondragstart="drag(event)">
+       <div class="row">
+        <div class="col-xs-6 ticket-name">
+         Karoke
        </div>
+       <div class="col-xs-6">
+        <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag28" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Google Drive
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag29" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Design Fiction
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag30" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       SIR/EIR
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
 
 
 
-       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-       <!-- Include all compiled plugins (below), or include individual files as needed -->
-       <script src="js/bootstrap.min.js"></script>
-       <script src="js/allscript.js"></script>
-     </body>
-     </html>
+<div class="row">
+  <div class="col-md-3">
+    <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div class="ticketBox" data-ticket-price="50000" id="drag31" draggable="true" ondragstart="drag(event)">
+       <div class="row">
+        <div class="col-xs-6 ticket-name">
+         Jam Sess
+       </div>
+       <div class="col-xs-6">
+        <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag32" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Debate
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag33" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Horses
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div id="clear" ondragover="allowDrop(event)" ondrop="drop(event)">
+    <div class="ticketBox" data-ticket-price="50000" id="drag34" draggable="true" ondragstart="drag(event)">
+     <div class="row">
+      <div class="col-xs-6 ticket-name">
+       Pizza Making
+     </div>
+     <div class="col-xs-6">
+      <img src="images/egggreen.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/allscript.js"></script>
+</body>
+</html>
