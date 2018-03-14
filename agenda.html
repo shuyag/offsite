@@ -28,29 +28,37 @@
       font-size: 10pt;
       vertical-align: middle;
     }
+    .one{
+      min-height: 55px;
+    }
+    .two{
+      min-height: 110px;
+    }
+    .three{
+      min-height: 165px;
+    }
+    .five{
+      min-height: 275px;
+    }
+
     #blue {
       width: 100%;
-      min-height: 55px;
       background-color: #b8d3f2;
     }
     #night {
       width: 100%;
-      min-height: 55px;
       background-color: #b8b9f4;
     }
     #green {
       width: 100%;
-      min-height: 55px;
       background-color: #c4f4b8;
     }
     #yellow {
       width: 100%;
-      min-height: 55px;
       background-color: #f7b23b;
     }
     #red {
       width: 100%;
-      min-height: 55px;
       background-color: #ef4565;
     }
     #clear {
@@ -111,13 +119,13 @@
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-12 ticket-name">
-                  9-10AM<br> Share: CoLab(x)
+                  9-10AM<br> Share: CoLab 3.0
                 </div>
               </div>
             </div>
         </div>
-         <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)"><p>10AM-12PM</p></div>
-        <div id="yellow">
+         <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>10AM-12PM</p></div>
+         <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-12 ticket-name">
@@ -127,9 +135,8 @@
               </div>
             </div>
         </div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-2PM</p></div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>2-4PM</p></div>
-        <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)"><p>4-6PM</p></div>
+        <div id="green" class="three" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-4PM</p></div>
+        <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>4-6PM</p></div>
         <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
@@ -140,7 +147,7 @@
               </div>
             </div>
         </div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
+        <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
         <div id="night">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
@@ -174,13 +181,14 @@
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-12 ticket-name">
-                  9-10AM<br> Share: Projects
+                  9-11AM<br> Share: Projects
+                  <p><br></p>
                 </div>
               </div>
             </div>
         </div>
-        
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)">11AM-12PM</div>
+
+        <div id="green" class="one" ondrop="drop(event)" ondragover="allowDrop(event)"><p>11AM-12PM</p></div>
 
         <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
@@ -192,8 +200,8 @@
               </div>
             </div>
         </div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-2PM</p></div>
-        <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)"><p>2-4PM</p></div>
+        <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-3PM</p></div>
+        <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>3-5PM</p></div>
         <div id="red">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
@@ -213,7 +221,7 @@
               </div>
             </div>
         </div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
+        <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
         <div id="night">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
@@ -246,12 +254,12 @@
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-12 ticket-name">
-                  9-10AM<br> Share: CoLab 3.0
+                  9-10AM<br> Share: CoLab(x)
                 </div>
               </div>
             </div>
         </div>
-          <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)">10AM-12PM</div>
+          <div id="blue" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>10AM-12PM</p></div>
         <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
@@ -262,9 +270,7 @@
               </div>
             </div>
         </div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-2PM</p></div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>2-4PM</p></div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>4-6PM</p></div>
+        <div id="green" class="five" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-6PM</p></div>
         <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
@@ -275,7 +281,7 @@
               </div>
             </div>
         </div>
-        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
+        <div id="green" class="two" ondrop="drop(event)" ondragover="allowDrop(event)"><p>8-10PM</p></div>
         <div id="night">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
