@@ -33,6 +33,11 @@
       min-height: 55px;
       background-color: #b8d3f2;
     }
+    #green {
+      width: 100%;
+      min-height: 55px;
+      background-color: #c4f4b8;
+    }
     #yellow {
       width: 100%;
       min-height: 55px;
@@ -96,11 +101,11 @@
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <div id="yellow"><p>7-9AM</p>
+        <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-8 ticket-name">
-                  Breakfast
+                  7-9AM<br>Breakfast
                   <span><strong>NO WORK!</strong></span>
                 </div>
                 <div class="col-xs-4">
@@ -111,11 +116,11 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div id="yellow"><p>7-9AM</p>
+        <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-8 ticket-name">
-                  Breakfast
+                  7-9AM<br>Breakfast
                   <span><strong>NO WORK!</strong></span>
                 </div>
                 <div class="col-xs-4">
@@ -126,11 +131,11 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div id="yellow"><p>7-9AM</p>
+        <div id="yellow">
             <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-8 ticket-name">
-                  Breakfast
+                  7-9AM<br>Breakfast
                   <span><strong>NO WORK!</strong></span>
                 </div>
                 <div class="col-xs-4">
@@ -144,12 +149,11 @@
 
     <div class="row">
       <div class="col-sm-4">
-        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)"><p>7-9AM</p>
+        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)">
             <div class="ticketBox" data-ticket-price="50000" id="drag1" draggable="true" ondragstart="drag(event)">
               <div class="row">
                 <div class="col-xs-8 ticket-name">
-                  Breakfast
-                  <span><strong>NO WORK!</strong></span>
+                  9-10AM<br>Share: CoLab(x)
                 </div>
                 <div class="col-xs-4">
                   <img src="images/eggred.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
@@ -159,12 +163,11 @@
         </div>
       </div>
      <div class="col-sm-4">
-        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)"><p>7-9AM</p>
+        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)">
             <div class="ticketBox" data-ticket-price="50000" id="drag1" draggable="true" ondragstart="drag(event)">
               <div class="row">
                 <div class="col-xs-8 ticket-name">
-                  Breakfast
-                  <span><strong>NO WORK!</strong></span>
+                  9-10AM<br>Share: Projects
                 </div>
                 <div class="col-xs-4">
                   <img src="images/eggred.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
@@ -174,12 +177,11 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)"><p>7-9AM</p>
+        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)">
             <div class="ticketBox" data-ticket-price="50000" id="drag1" draggable="true" ondragstart="drag(event)">
               <div class="row">
                 <div class="col-xs-8 ticket-name">
-                  Breakfast
-                  <span><strong>NO WORK!</strong></span>
+                  9-10AM<br>Share: CoLab 3.0
                 </div>
                 <div class="col-xs-4">
                   <img src="images/eggred.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
@@ -192,11 +194,25 @@
 
   <div class="row">
       <div class="col-sm-4">
-        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)"><p>7-9AM</p>
-            <div class="ticketBox" data-ticket-price="50000" id="drag1" draggable="true" ondragstart="drag(event)">
+        <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)"><p>10AM-12PM</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)">11AM-12PM</div>
+      </div>
+      <div class="col-sm-4">
+        <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)">10AM-12PM</div>
+      </div>
+    </div>
+
+
+        <div class="row">
+      <div class="col-sm-4">
+        <div id="yellow">
+            <div class="ticketBox" data-ticket-price="50000">
               <div class="row">
                 <div class="col-xs-8 ticket-name">
-                  Breakfast
+                  12-1PM<br>Lunch
                   <span><strong>NO WORK!</strong></span>
                 </div>
                 <div class="col-xs-4">
@@ -207,12 +223,136 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div id="yellow" ondrop="drop(event)" ondragover="allowDrop(event)">7-9AM</div>
+        <div id="yellow">
+            <div class="ticketBox" data-ticket-price="50000">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  12-1PM<br>Lunch
+                  <span><strong>NO WORK!</strong></span>
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggyellow.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
       <div class="col-sm-4">
-        <div id="yellow" ondrop="drop(event)" ondragover="allowDrop(event)">7-9AM</div>
+        <div id="yellow">
+            <div class="ticketBox" data-ticket-price="50000">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  12-1PM<br>Lunch
+                  <span><strong>NO WORK!</strong></span>
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggyellow.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
+
+  <div class="row">
+      <div class="col-sm-4">
+        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)"><p>1-4PM</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)">1-3PM</div>
+      </div>
+      <div class="col-sm-4">
+        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)">1-3PM</div>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-sm-4">
+        <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)"><p>2-4PM</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)">2-4PM</div>
+      </div>
+      <div class="col-sm-4">
+        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)">2-4PM</div>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-sm-4">
+        <div id="blue" ondrop="drop(event)" ondragover="allowDrop(event)"><p>4-6PM</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div id="red" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="ticketBox" data-ticket-price="50000" id="drag1" draggable="true" ondragstart="drag(event)">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  5-6PM<br>Share: Fund
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggred.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div id="green" ondrop="drop(event)" ondragover="allowDrop(event)">4-6PM</div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="yellow">
+            <div class="ticketBox" data-ticket-price="50000">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  6-8PM<br>Dinner
+                  <span><strong>NO WORK!</strong></span>
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggyellow.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div id="yellow">
+            <div class="ticketBox" data-ticket-price="50000">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  6-8PM<br>Dinner
+                  <span><strong>NO WORK!</strong></span>
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggyellow.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div id="yellow">
+            <div class="ticketBox" data-ticket-price="50000">
+              <div class="row">
+                <div class="col-xs-8 ticket-name">
+                  6-8PM<br>Dinner
+                  <span><strong>NO WORK!</strong></span>
+                </div>
+                <div class="col-xs-4">
+                  <img src="images/eggyellow.png" alt="IDEO CoLab Logo" style="width:55px;height:auto;">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
 
    </div>
  </div>

@@ -118,6 +118,7 @@ label {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: scroll;
 }
 
 /* event banner css */
