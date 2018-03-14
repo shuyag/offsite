@@ -106,6 +106,20 @@ label {
     padding-left: 0px;
 }
 
+/* event agenda css */
+.event-agenda-wrapper {
+    position: fixed;
+    width: 41.66666667%;
+    height: 100%;   
+    padding: 200px;
+    background-color: #c4c4c4;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /* event banner css */
 .event-banner-wrapper {
 	position: fixed;
@@ -166,6 +180,9 @@ label {
 .event-banner-wrapper p a:hover {
 	border-bottom: 1px solid #fff;
 }
+
+
+
 
 /* event ticket css */
 .event-ticket-wrapper{	
